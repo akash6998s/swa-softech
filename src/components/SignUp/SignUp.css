@@ -1,0 +1,104 @@
+.signup-container {
+    background: #000349;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.signup {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.signup-head {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-cryptohouse {
+    color: aqua;
+}
+
+.signup-para {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.email input {
+    padding: 15px 25px;
+    width: 400px;
+    /* border: 1px solid white; */
+    border: none;
+    border-radius: 20px;
+    background: 2px 2px 2px #ccc;
+}
+
+.submit button {
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit button:hover {
+    cursor: pointer;
+}
+
+.text-signin:hover {
+    cursor: pointer;
+}
+
+
+
+.signup-footer-1{
+    background-color: white;
+    color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 150px;
+    gap: 150px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row-1 ul, .row-2 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.row-1 ul li, .row-2 ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.row-1 ul li, .row-2 ul li:hover{
+    cursor: pointer;
+}
+
+.column-3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}

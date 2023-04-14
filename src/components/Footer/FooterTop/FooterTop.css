@@ -1,0 +1,175 @@
+.footer-top {
+    padding: 50px 100px;
+    background: linear-gradient(90deg, #000349 0%, #005B8E 100%);
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-para {
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.footer-column h4 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.footer-column h5 {
+    margin: 12px;
+    font-size: 1rem;
+}
+
+.footer-column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column-slide {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-column-4 {
+    width: 350px;
+}
+
+.search input {
+    border: 1px solid #FF002E;
+    padding: 15px;
+    width: 250px;
+}
+
+.search button {
+    background-color: #FF002E;
+    border: 1px solid #FF002E;
+    padding: 15px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.social-icon:hover {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    background-color: rgb(234, 50, 81);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer-top {
+        width: 100%;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-para {
+        width: 500px;
+    }
+
+    .link {
+        position: absolute;
+        right: 300px;
+        bottom: 220px;
+    }
+
+    .search {
+        width: 600px;
+    }
+
+    .search input {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-top {
+        width: 100%;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-para {
+        width: 500px;
+    }
+
+    .link {
+        position: absolute;
+        right: 100px;
+        bottom: 220px;
+    }
+
+    .search {
+        width: 500px;
+    }
+
+    .search input {
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .footer-top {
+        width: 100%;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-para {
+        width: 500px;
+    }
+
+    .link {
+        position: absolute;
+        right: 20px;
+        bottom: 220px;
+    }
+
+    .search {
+        width: 400px;
+    }
+
+    .search input {
+        width: 300px;
+    }
+
+}

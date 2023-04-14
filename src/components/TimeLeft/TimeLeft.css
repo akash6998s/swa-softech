@@ -1,0 +1,284 @@
+.time-container {
+    background: linear-gradient(90deg, #FF002E 0%, #FF7A00 100%);
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.time-left {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.time-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.time-sub-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 65%;
+    line-height: 35px;
+}
+
+.time-circles {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 80px 0;
+    color: white;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted white;
+}
+
+.sub-circle {
+    box-shadow: 2px 2px 4px #ccc;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    font-size: 1.6rem;
+}
+
+.circle-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-box {
+    background-color: white;
+    box-shadow: 2px 2px 2px #ccc;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 10px 50px;
+}
+
+.box-heading {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.box-heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box-heading p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+.time-arrow {
+    margin-left: 10px;
+}
+
+.box-btn button {
+    background: linear-gradient(90deg, #FF002E 0%, #FF7A00 100%);
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.box-btn button:hover {
+    background-color: white;
+    animation-name: token;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.time-curve {
+    position: absolute;
+    bottom: 0;
+}
+
+.token {
+    border: 1px solid #FF002E;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+}
+
+@keyframes token {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(150px);
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .time-circles {
+        gap: 20px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sub-circle {
+        height: 100px;
+        width: 100px;
+        font-size: 1.2rem;
+    }
+
+    .time-circles {
+        font-size: 0.8rem;
+    }
+
+
+    .time-box {
+        gap: 50px;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .box-heading h1 {
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+
+    .box-heading p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .time-circles {
+        gap: 20px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sub-circle {
+        height: 100px;
+        width: 100px;
+        font-size: 1.2rem;
+    }
+
+    .time-circles {
+        font-size: 0.8rem;
+    }
+
+
+    .time-box {
+        gap: 20px;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .box-heading h1 {
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+
+    .box-heading p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .time-circles {
+        gap: 20px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sub-circle {
+        height: 100px;
+        width: 100px;
+        font-size: 1.2rem;
+    }
+
+    .time-circles {
+        font-size: 0.8rem;
+    }
+
+
+    .time-box {
+        gap: 20px;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    .box-heading h1 {
+        font-size: 1.2rem;
+        margin-left: 60px;
+    }
+
+    .box-heading p {
+        font-size: 0.9rem;
+    }
+
+
+}

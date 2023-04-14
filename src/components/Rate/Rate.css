@@ -1,0 +1,159 @@
+.rate-container{
+    width: 100vw;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 200px;
+    margin: 20px 0;
+    background-color: #6666;
+}
+
+.rate{
+margin: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+}
+
+.bar-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rate-bar{
+    background-color: white;
+    border-radius: 70px;
+    padding: 45px;
+    display: flex;
+    gap: 70px;
+}
+
+.line{
+    width: 1px;
+    background-color: #6666;
+}
+
+.bar-desc h1{
+    color: red;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.bar-desc p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #565656;
+}
+
+
+.rate-curve-top{
+    position: absolute;
+    top: 0;
+}
+.rate-curve-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+    .rate-img img{
+        width: 500px;
+    }
+
+    .rate-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rate{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    
+    .rate-bar{
+        gap: 10px;
+        width: 550px;
+        height: 150px;
+    }
+
+    
+    .bar-desc h1{
+        font-size: 1.5rem;
+    }
+    
+    .bar-desc p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .rate-curve-top{
+        position: absolute;
+        top: 0;
+    }
+    .rate-curve-bottom{
+        position: absolute;
+        bottom: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px){
+
+    .rate-img img{
+        width: 500px;
+    }
+
+    .rate-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rate{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    
+    .rate-bar{
+        gap: 10px;
+        width: 550px;
+        height: 150px;
+    }
+
+    
+    .bar-desc h1{
+        font-size: 1.5rem;
+    }
+    
+    .bar-desc p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .rate-curve-top{
+        position: absolute;
+        top: 0;
+    }
+    .rate-curve-bottom{
+        position: absolute;
+        bottom: 0;
+    }
+    
+
+}

@@ -1,0 +1,106 @@
+
+.team-container {
+    margin: 100px 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.team-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.team-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.text-team {
+    color: red;
+}
+
+.text-member {
+    color: navy;
+}
+
+.team-header h6 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #666;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 0;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.team-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-size: 0.8rem;
+}
+
+.member-profile {
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .team-header {
+        gap: 18px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .member {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .team-header {
+        gap: 18px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .member {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,93 @@
+
+.token-information{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.information-tabel h4{
+font-weight: 500;
+}
+
+.information-tabel p{
+font-weight: 600;
+color: #666;
+}
+
+.token-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.info-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info-heading h1{
+    color: rgb(229, 68, 68);
+    font-weight: 600;
+    font-size: 3rem;
+}
+.info-heading h2{
+    color: navy;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.info-sub-heading{
+    font-size: 1rem;
+    color: #666666;
+}
+
+
+.information-head{
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+.information-tabel div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2efef;
+    margin: 10px 0;
+    padding:  15px 10px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+
+.token-img img{
+    width: 550px;
+}
+
+@media screen and (max-width: 1024px){
+    .token-information{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .token-information{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+.token-information{
+    flex-direction: column;
+    gap: 30px;
+}
+
+}
